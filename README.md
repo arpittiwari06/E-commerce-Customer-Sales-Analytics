@@ -27,9 +27,19 @@ E-Commerce-Customer-Sales-Insights/
 │   └── rfm customer segments.csv
 │
 ├── Images/
-│   ├── E- commerce sales
-│   ├──customer segmentation analysis
-│   ├── product and market insights
+│   ├── pbi executive overview.png
+│   ├── pbi customer segmentation.png
+│   ├── pbi product market insights.png
+│   ├── pbi executive insights.png
+│   ├── pbi vip customeranalysis.png
+│   ├── pbi regular customer analysis.png
+│   ├── pbi country tooltip analysis.png
+│   ├── python customer segmentation.png
+│   ├── python monthly revenue trend.png
+│   ├── python revenue by day.png
+│   ├── python top customers.png
+│   └── python top products revenue.png
+│
 ├── Notebooks/
 │   └── ecommerce customer sales analysis.ipynb
 │
@@ -40,6 +50,7 @@ E-Commerce-Customer-Sales-Insights/
 │   └── Ecommerce Sales Analysis.sql
 │
 └── README.md
+
 
 Project Overview
 This project focuses on analyzing E-Commerce transaction data to extract actionable business insights such as:
