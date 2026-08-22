@@ -1,107 +1,68 @@
-# E-commerce-Customer-Sales-Analytics
+# 🛒 E-Commerce Customer Sales Analytics
 
-End to end ECommerce Analytics project built using Python, SQL, and Power BI to analyze customer behavior, sales performance, product trends, and revenue insights.
+An end-to-end **E-Commerce Sales Analytics project** using **Python, MySQL, and Power BI** to analyze sales performance, customer behavior, product performance, and customer segments.
 
-This project includes:
+## 🎯 Objectives
 
-Data Cleaning & Preprocessing
-Exploratory Data Analysis (EDA)
-RFM Customer Segmentation
-SQL Business Analysis
-Interactive Power BI Dashboards
+* Analyze revenue and sales trends
+* Identify top-performing products and countries
+* Analyze customer purchasing behavior
+* Perform **RFM Customer Segmentation**
+* Identify high-value customers
+* Create interactive dashboards for business insights
 
-Tech Stack
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- MySQL
-- Power BI
+## 🛠️ Tools & Technologies
 
-E-Commerce-Customer-Sales-Insights/
-│
-├── Datasets/
-│   ├── Raw Online Retail.zip
-│   ├── cleaned ecommerce data.zip
-│   └── rfm customer segments.csv
-│
-├── Images/
-│   ├── pbi executive overview.png
-│   ├── pbi customer segmentation.png
-│   ├── pbi product market insights.png
-│   ├── pbi executive insights.png
-│   ├── pbi vip customeranalysis.png
-│   ├── pbi regular customer analysis.png
-│   ├── pbi country tooltip analysis.png
-│   ├── python customer segmentation.png
-│   ├── python monthly revenue trend.png
-│   ├── python revenue by day.png
-│   ├── python top customers.png
-│   └── python top products revenue.png
-│
-├── Notebooks/
-│   └── ecommerce customer sales analysis.ipynb
-│
-├── PowerBI/
-│   └── Ecommerce Sales Dashboard.pbix
-│
-├── SQL/
-│   └── Ecommerce Sales Analysis.sql
-│
+* **Python:** Pandas, NumPy, Matplotlib, Seaborn
+* **MySQL:** Data analysis and business queries
+* **Power BI:** Interactive dashboards and KPI visualization
+
+## 🔄 Project Workflow
+
+```text
+Raw Data → Data Cleaning → EDA → SQL Analysis → RFM Segmentation → Power BI Dashboard
+```
+
+## 📊 Key Analysis
+
+* Monthly revenue trends
+* Top products by revenue
+* Revenue by country
+* Customer purchasing behavior
+* RFM customer segmentation
+* Revenue by customer segment
+* Key business KPIs such as Revenue, Orders, Customers and AOV
+
+## 📈 Power BI Dashboard
+
+The project includes dashboards for:
+
+* **Executive Overview**
+* **Customer Segmentation**
+* **Product & Market Insights**
+
+## 💡 Business Insights
+
+The analysis helps identify **high-value customers, top-performing products, important markets, and customer segments**, enabling better marketing, customer retention, and sales decisions.
+
+## 📂 Project Structure
+
+```text
+├── dataset/
+├── images/
+├── notebook/
+├── power bi/
+├── sql/
 └── README.md
+```
 
+## 🔗 GitHub Repository
 
-Project Overview
-This project focuses on analyzing E-Commerce transaction data to extract actionable business insights such as:
+[View Project on GitHub](https://github.com/arpittiwari06/E-commerce-Customer-Sales-Analytics)
 
-- Revenue trends and seasonal sales patterns
-- Top-performing products and countries
-- Customer purchasing behavior
-- RFM-based customer segmentation
-- KPI tracking and executive insights
+## 👨‍💻 Author
 
-Python Analysis
-The Python notebook includes:
+**Arpit Tiwari**
+B.Tech Biotechnology | NIT Raipur
+Aspiring Data Analyst
 
-- Data Cleaning
-- Missing Value Handling
-- Feature Engineering
-- Revenue Analysis
-- Customer Segmentation
-- Product Performance Analysis
-- Data Visualization
-
-  SQL Business Analysis
-The SQL analysis includes:
-
-- Total Revenue Analysis
-- Total Orders Analysis
-- Customer Analysis
-- Top Products by Revenue
-- Top Countries by Revenue
-- Average Order Value
-- Revenue Trend Analysis
-- Customer Segmentation Queries
-- Product Revenue Ranking
-
-Power BI Dashboards
-
-1. Executive Overview Dashboard
-- Revenue KPIs
-- Orders & Customers KPIs
-- Monthly Revenue Trend
-- Top Products by Revenue
-- Top Countries Analysis
-
-2. Customer Segmentation Dashboard
-- RFM Segmentation
-- Revenue by Segment
-- VIP Customer Analysis
-- Customer Behavior Insights
-
-3. Product & Market Insights Dashboard
-- Product Revenue Analysis
-- Most Sold Products
-- Global Revenue Distribution
-- Country Filters
